@@ -1,31 +1,30 @@
 {
   "books": [
-    { "id": 1, "title": "Atomic Habits", "author": "James Clear", "genre": "Self-help", "available": false },
-    { "id": 2, "title": "The Alchemist", "author": "Paulo Coelho", "genre": "Fiction", "available": true },
-    { "id": 3, "title": "To Kill a Mockingbird", "author": "Harper Lee", "genre": "Classic", "available": false },
-    { "id": 4, "title": "Sapiens", "author": "Yuval Noah Harari", "genre": "History", "available": true },
-    { "id": 5, "title": "Theo", "author": "Amanda Prowse", "genre": "Fantasy", "available": false }
+    { "bookId": 1, "title": "Atomic Habits", "author": "James Clear", "genre": "Self-help", "available": false },
+    { "bookId": 2, "title": "The Alchemist", "author": "Paulo Coelho", "genre": "Fiction", "available": true },
+    { "bookId": 3, "title": "To Kill a Mockingbird", "author": "Harper Lee", "genre": "Classic", "available": false },
+    { "bookId": 4, "title": "Sapiens", "author": "Yuval Noah Harari", "genre": "History", "available": true },
+    { "bookId": 5, "title": "Theo", "author": "Amanda Prowse", "genre": "Fantasy", "available": false }
   ],
   "users": [
     {
-      "id": 101,
+      "id": 2019008,
       "name": "Shree",
       "borrowedBooks": [
         { "bookId": 1, "dueDate": "9/5/2025" },
         { "bookId": 3, "dueDate": "9/2/2025" },
         { "bookId": 4, "dueDate": "9/3/2025" }
-
       ],
       "history": []
     },
     {
-      "id": 102,
+      "id": 2019014,
       "name": "Rahul",
       "borrowedBooks": [],
       "history": []
     },
     {
-      "id": 103,
+      "id": 2019128,
       "name": "Priya",
       "borrowedBooks": [
         { "bookId": 5, "dueDate": "9/3/2025" }
@@ -34,8 +33,8 @@
     }
   ],
   "reservations": [
-    { "userId": 102, "bookId": 1, "date": "8/23/2025" },
-    { "userId": 103, "bookId": 3, "date": "8/24/2025" }
+    { "userId": 2019014, "bookId": 1, "date": "8/23/2025" },
+    { "userId": 2019128, "bookId": 3, "date": "8/24/2025" }
   ],
   "maxBorrowLimit": 3,
   "borrowDurationDays": 14
